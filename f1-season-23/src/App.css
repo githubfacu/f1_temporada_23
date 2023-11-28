@@ -1,0 +1,20 @@
+#root {
+  width: 100vw;
+  min-width: 1280px;
+  max-width: 2160px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  border: .3rem solid black;
+  background-color: rgb(187, 91, 0);
+  align-self: start;
+}
+
+.contenedor-padre{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(26, 26, 26);
+  padding-bottom: 5rem;
+  color: white;
+  width: 100%;
+}

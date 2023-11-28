@@ -1,0 +1,42 @@
+.circuitoCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 13px 10px rgba(202, 104, 0, 0.7);
+    padding: 1.5rem .5rem 1rem;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(14, 14, 14);
+}
+
+.circuitoCard:hover{
+    transform: scale(1.05);
+    cursor:context-menu;
+}
+
+.banderaImg{
+    max-width: 60px;
+    height: 42px;
+    border-radius: 7px;
+}
+
+.imgCircuito{
+    background-color: aliceblue;
+    border-radius: 7px;
+    margin: .3rem 0;
+}
+
+.imgCircuito img{
+    max-width: 200px;
+}
+
+.h3{
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}

@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    padding: 0 .4rem .3rem 0;
+    background-color: black;
+}
+
+.conteiner1{
+    display: flex;
+    position: relative;
+    background-color: rgb(245, 208, 0);
+    border: .5rem solid black;
+    width: 100%;
+    color: black;
+    justify-content: center;
+}
+
+.conteiner1 img{
+    position: absolute;
+    left: 0;
+    padding: .3rem;
+    height: 86%;
+}
+
+.conteiner1 p{
+    font-size: 20px;
+    font-weight:500;
+    padding: 0 .3rem;
+    border-style: inset;
+}
+
